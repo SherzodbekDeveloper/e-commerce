@@ -65,10 +65,10 @@ const NavItems = () => {
 									</li>
 								</ul>
 							</div>
-							<Link to={''} className='lab-btn me-3 d-none d-md-block'>
+							<Link to={'sign-up'} className='lab-btn me-3 d-none d-md-block'>
 								Create Account
 							</Link>
-							<Link to={''} className='d-none d-md-block'>
+							<Link to={'login'} className='d-none d-md-block'>
 								Log in
 							</Link>
 							<div
