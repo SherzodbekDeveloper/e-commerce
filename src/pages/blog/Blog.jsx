@@ -1,5 +1,5 @@
 import PageHeader from '../../components/PageHeader'
-import blogList from '/src/utilis/blogdata.js'
+import blogList from '../../utilis/blogdata.js'
 import { Link } from 'react-router-dom'
 
 const Blog = () => {
