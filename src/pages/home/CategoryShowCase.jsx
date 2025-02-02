@@ -6,7 +6,7 @@ const title = 'Our Products'
 
 const ProductData = [
 	{
-		imgUrl: 'src/assets/images/categoryTab/01.jpg',
+		imgUrl: '../../assets/images/categoryTab/01.jpg',
 		cate: 'Shoes',
 		title: 'Nike Premier X',
 		author: 'assets/images/course/author/01.jpg',
@@ -88,7 +88,7 @@ const CategoryShowCase = () => {
 		} else {
 			const updateItems = ProductData.filter(currentElement => {
 				return currentElement.cate === categItem
-			})	
+			})
 			setItems(updateItems)
 		}
 	}
@@ -104,7 +104,7 @@ const CategoryShowCase = () => {
 
 			<div className='container'>
 				<div className='section-header'>
-					<h2 className='title'>Our products</h2>
+					<h2 className='title'>{title}</h2>
 					<div className='course-filter-group'>
 						<ul className='lab-ul'>
 							<li onClick={() => filterItem('All')}>All</li>
